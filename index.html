@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- Bootstrap and CSS here-->
+  </head>
+  <body class='container-fluid'>
+
+      <div id='app'>
+
+        <div id='headers'>
+          <h1 class="center">Guessing Game</h1>
+          <h2 class="center">Guess a Number Between 1-100</h2>
+          <h3 class="center" id="status-message"></h3>
+        </div>
+
+        <div id='main'>
+          <div class = 'center' id='input-parent'>
+            <input id = 'input-text' class='center input-text' type="text" placeholder="#" maxlength="3" autofocus/>
+            <button id='go-button'>Go!</button>
+          </div>
+
+          <div class = "guesses center" id='guescont'>
+            <ul class="guess-list row center">
+              <li class = "guess col-sm-2 col-sm-offset-2" id = 'guess-1'>11</li>
+              <li class = "guess col-sm-2 col-sm-offset-2" id = 'guess-2'>12</li>
+              <li class = "guess col-sm-2 col-sm-offset-2" id = 'guess-3'>14</li>
+              <li class = "guess col-sm-2 col-sm-offset-2" id = 'guess-4'>12</li>
+              <li class = "guess col-sm-2 col-sm-offset-2" id = 'guess-5'>15</li>
+            </ul>
+          </div>
+
+          <div  class="center" id="menu-btns">
+            <button id = 'reset' type="button" name="reset">Reset</button>
+            <button id = 'hint'type="button" name="hint">Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div class="container-fluid" id='footer'>
+        <div class='row'>
+          <div class='col-sm-4'>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-4'>
+            <h4 id='credits'>Project by JesseBarron</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src='grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+  </body>
+</html>
