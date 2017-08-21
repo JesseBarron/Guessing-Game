@@ -11,30 +11,30 @@
       <div id='app'>
 
         <div id='headers'>
-          <h1 class="center">Guessing Game</h1>
-          <h2 class="center">Guess a Number Between 1-100</h2>
-          <h3 class="center" id="status-message"></h3>
+          <h1 class="center" id='title'>Guessing Game</h1>
+          <h2 class="center">Guess a Number Between <span id = 'one-hundred'>1-100</span></h2>
+          <h3 class="center" id="status-message">This is a temp message</h3>
         </div>
 
         <div id='main'>
           <div class = 'center' id='input-parent'>
-            <input id = 'input-text' class='center input-text' type="text" placeholder="#" maxlength="3" autofocus/>
-            <button id='go-button'>Go!</button>
+            <input id = 'input-text' class='center input-text' type="text-area" placeholder="#" maxlength="3" autofocus/>
+            <button class='btn btn-success'id='go-button'>Go!</button>
           </div>
 
           <div class = "guesses center" id='guescont'>
             <ul class="guess-list row center">
-              <li class = "guess col-sm-2 col-sm-offset-2" id = 'guess-1'>11</li>
-              <li class = "guess col-sm-2 col-sm-offset-2" id = 'guess-2'>12</li>
-              <li class = "guess col-sm-2 col-sm-offset-2" id = 'guess-3'>14</li>
-              <li class = "guess col-sm-2 col-sm-offset-2" id = 'guess-4'>12</li>
-              <li class = "guess col-sm-2 col-sm-offset-2" id = 'guess-5'>15</li>
+              <li class = "guess col-sm-2 col-sm-offset-2" id = 'guess-1'>-</li>
+              <li class = "guess col-sm-2 col-sm-offset-2" id = 'guess-2'>-</li>
+              <li class = "guess col-sm-2 col-sm-offset-2" id = 'guess-3'>-</li>
+              <li class = "guess col-sm-2 col-sm-offset-2" id = 'guess-4'>-</li>
+              <li class = "guess col-sm-2 col-sm-offset-2" id = 'guess-5'>-</li>
             </ul>
           </div>
 
           <div  class="center" id="menu-btns">
-            <button id = 'reset' type="button" name="reset">Reset</button>
-            <button id = 'hint'type="button" name="hint">Hint</button>
+            <button class="btn btn-dark" id = 'hint'type="button" name="hint">Hint</button>
+            <button class="btn btn-danger" id = 'reset' type="button" name="reset">Reset</button>
           </div>
         </div>
       </div>

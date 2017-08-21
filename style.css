@@ -1,8 +1,11 @@
 .center {
   text-align: center;
 }
+body {
+  background-image: url(binary.jpg);
+}
 ul {
-    display: block;
+    display: inline;
     list-style: none;
     padding: 0;
     width: 100%;
@@ -13,14 +16,44 @@ img {
     width: 200px;
     height: 100px;
 }
+.input-text {
+    border-radius: 88px;
+    width: 165px;
+    height: 162px;
+    font-size: 90px;
+}
+.guesses {
+  margin-top: 50px;
+}
 .guess {
+  display: inline;
   margin-left: 10px;
   border-radius: 5px;
   border: 2px black solid;
-  font-size: 40px;
+  font-size: 60px;
+  padding: 0 25px;
+}
+#one-hundred {
+  color: red;
+}
+#go-button {
+  position: relative;
+  border-radius: 112px;
+  height: 54px;
+  top: 28px;
+  right: 52px;
+}
+#title {
+  margin-bottom: 60px;
+}
+#app {
+  margin-top: 5%;
+  background-color: rgba(255,255,255, 0.8);
+  border: 2px lightgrey solid;
+  border-radius: 8px;
+  padding: 12px;
 }
 #footer {
-    width: 100%;
     border-top: solid 2px black;
     background-color: white;
     position: fixed;
@@ -30,6 +63,6 @@ img {
   margin-top: 30px;
 }
 #main {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
